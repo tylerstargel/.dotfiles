@@ -9,7 +9,7 @@ set autoindent
 set ruler
 color elflord
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
-##.bashrc_custom
+## .bashrc_custom
 This sets up different configuratiions for my .bashrc
 The alias of:
 cdd = cd ..
@@ -22,14 +22,14 @@ rmtrash = deletes the .TRASH directory
 There are also functions establishing the alias for targz and untar
 ## .bashrc
 This is my custom .bashrc configuration for Bash.
-##Makefile
+## Makefile
 This make file runs two scripts ./cleanup.sh and ./linux.sh
-###Clean Up
+### Clean Up
 This scripts undoes the majority of the commands in ./linux.sh
 It removes the ~./vimrc file
 And replaces the last line in my .bashrc file "source ~/.dotfiles/etc/bashrc_custom" to an empty line
 Finally, it removes the ~/.TRASH
-###Linux
+### Linux
 This script does multiple things
 1. It checks if the correct OS (linux) is being run
 2. Then, it creates, if not already created, a /.TRASH/ directory in the home directory
